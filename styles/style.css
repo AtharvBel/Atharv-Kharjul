@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+}
+
+html{
+  font-size: 12pt;
+  font-family: Poppins, Segoe UI, Tahoma, sans-serif;
+}
+nav{
+  margin-top: 20px;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.links-container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+nav a{
+  height: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  margin: 60px;
+  font-weight: 400;
+  transition: 0.5s ease;
+}
+
+nav a:hover{
+  color: red;
+  transform: scale(1.1);
+}
+
+nav .home-link{
+  margin-right: auto;
+  color: red;
+  font-size: 35px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+nav .home-link:hover{
+  transform: scale(1.1);
+}
+
+.split-screen-1 {
+  background-image: url(../resources/Section1.png);
+  background-size: cover;
+  background-color: transparent;
+  height: 800px;
+  width: 700px;
+  position: absolute;
+  margin: 0px;
+  top: 50%;
+  left: 27%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 550px;
+}
+
+.split-screen-2 {
+  color: white;
+  font-size: 52px;
+  font-weight: bolder;
+}
+
+span {
+  color: red;
+}
+
+.context1 {
+  margin-top: 300px;
+}
+
+.seperator-line {
+  width: 330px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    background: transparent;
+    border: 3.2px solid red;
+    font-size: 32px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    color:red;
+}
+
+.social-icons a:hover{
+  transform: scale(1.2);
+}
+
+.about-me {
+  display: inline-block;
+  padding: 16px 44.8px;
+  background-color: black;
+  border-radius: 64px;
+  font-size: 25.6px;
+  border: 2px solid red;
+  letter-spacing: 4.8px;
+  font-weight: 600;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.about-me a{
+  text-decoration: none;
+  color: red;
+  background-color: transparent;
+}
+
+.about-me:hover{
+  transform: scale(1.03);
+  transform: scale(1.1);
+}
+
+
+.twitter {
+  border-radius: 8.5px;
+}
